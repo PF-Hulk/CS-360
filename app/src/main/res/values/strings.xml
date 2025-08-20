@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Inventory Tracking</string>
+
+    <!-- Login -->
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button_text">Log In</string>
+    <string name="create_account_text">Create Account</string>
+    <string name="err_invalid_credentials">Invalid credentials</string>
+    <string name="err_username_exists">Username already exists</string>
+
+    <!-- Grid / inventory -->
+    <string name="add_item_text">Add Item</string>
+    <string name="add_item_dialog_title">Add Item</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="item">Item List</string>
+    <string name="delete">Delete</string>
+    <string name="quantity_format">Qty: %d</string>
+    <string name="date_format">Last Updated: %s</string>
+
+    <!-- Toasts / messages -->
+    <string name="toast_deleted">Deleted</string>
+    <string name="toast_name_required">Name required</string>
+    <string name="toast_item_exists">Item already exists</string>
+
+    <!-- SMS permission -->
+    <string name="sms_permission_rationale">
+        This app needs SMS permission to send you alerts when any inventory item reaches zero.
+    </string>
+    <string name="request_sms_permission">Allow SMS Notifications</string>
+    <string name="sms_enabled_message">SMS notifications are enabled.</string>
+    <string name="sms_disabled_message">SMS notifications are disabled.</string>
+    <string name="sms_permission_granted">SMS permission granted</string>
+    <string name="sms_alert_template">Inventory Alert: "%1$s" has reached quantity 0.</string>
+
+    <!-- Inv qty controls -->
+    <string name="decrement_desc">Decrease quantity</string>
+    <string name="increment_desc">Increase quantity</string>
+</resources>
